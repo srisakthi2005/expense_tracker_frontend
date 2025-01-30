@@ -1,0 +1,101 @@
+.form-control{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    border-left:5px solid #28a745;
+}
+
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+.balance{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color:white ;
+    border-left:5px solid #28a745;
+
+}
+button{
+    background-color: rgb(236, 75, 75);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7f8e9d;
+  }
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+.list li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-left:5px solid #28a745;
+
+}
+.list li:last-child{
+    border-bottom: none;
+}
+.income{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-left:5px solid #28a745;
+    padding: 0%;
+    margin: 0%;
+
+}
+.expense{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-left:5px solid #28a745;
+    padding: 0%;
+    margin: 0%;
+}
+.delete-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-left: auto;
+    display: flex;
+    
+
+
+  }
+  div {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: rgb(130, 211, 238);
+  }
